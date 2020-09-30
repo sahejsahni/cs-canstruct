@@ -1,0 +1,72 @@
+#hero {
+	background-color: white;
+	background-image: url("images/bg-image.png"), linear-gradient(#081F24 0%, #1A292C 45%, #2C4044 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+#logo {
+	padding-top: 84px;
+}
+
+#cta {
+	color: white;
+	margin-top: 80px; 
+	margin-bottom: 24px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+#soon {
+	color: white;
+	font-size: 18px;
+	margin: 0px;
+	font-family: 'Karla', sans-serif;
+
+}
+
+#notifyme {
+	font-family: 'Karla', sans-serif;	background: linear-gradient(#FFC42E, #E1A203);
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: 0px 10px 20px #FFC42E33;
+	border: 2px solid #FFFFFF;
+	border-radius: 0px;
+	color: #112327;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin-top: 120px;
+}
+
+#services {
+	color: white;
+	font-size: 18px;
+	margin-top: 72px;
+	font-family: 'Karla', sans-serif;
+
+}
+
+
+@media (min-width: 600px) {
+	#cta {
+	font-size: 56px;
+	}
+}
+
+/* small devices 599+ */
+
+@media (max-width: 599px) 	{
+	#cta {
+		font-size: 32px;
+		margin-bottom: 8px;
+	}
+	#logo {
+		width: 137px;
+	}
+}
+
